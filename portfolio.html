@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Latent Space Visualization</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        header {
+            background: linear-gradient(to right, #083344, #00111a);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.1);
+            padding: 10px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1, h2 {
+            color: #083344;
+        }
+        
+        .project {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .project:last-child {
+            border-bottom: none;
+        }
+        
+        .project img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #083344;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Personal Portfolio</h1>
+        <p>Exploring the Intersection of Art and Technology</p>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <section id="home">
+            <h2>Welcome</h2>
+            <p>This portfolio showcases my work in creating immersive digital experiences, with a focus on 3D visualizations and interactive designs. Below, you'll find a collection of projects that highlight my skills in blending aesthetics with technology.</p>
+        </section>
+        
+        <section id="projects">
+            <h2>Projects</h2>
+            
+            <div class="project">
+                <h3>Latent Space Visualization</h3>
+                <p>An interactive 3D visualization of a latent space, featuring interconnected neural nodes floating in a dark cyan vacuum. This project demonstrates my ability to create cinematic lighting, soft teal gradients, and frosted glass textures using Three.js.</p>
+                <img src="latent_space_screenshot.png" alt="Latent Space Visualization">
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Three.js</p>
+                <p><a href="index.html" target="_blank">View Project</a></p>
+            </div>
+            
+            <div class="project">
+                <h3>Project Two</h3>
+                <p>Description of another project. This could be a different type of visualization or interactive experience.</p>
+                <img src="project2_screenshot.png" alt="Project Two">
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            </div>
+            
+            <div class="project">
+                <h3>Project Three</h3>
+                <p>Description of a third project. Highlight another skill or technology you've worked with.</p>
+                <img src="project3_screenshot.png" alt="Project Three">
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            </div>
+        </section>
+        
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a passionate digital artist and developer with a focus on creating immersive and interactive experiences. My work often explores the intersection of art and technology, leveraging modern web technologies to bring creative ideas to life.</p>
+            <p>With a background in both design and development, I strive to create visually stunning projects that are also technically robust. My expertise includes 3D visualizations, interactive web applications, and user experience design.</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out if you'd like to collaborate on a project or just want to say hello!</p>
+            <p>Email: <a href="mailto:contact@example.com">contact@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+            <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Personal Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
